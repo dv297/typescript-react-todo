@@ -116,7 +116,7 @@ const App: React.FC<IAppProps & RouteComponentProps> = (props) => {
   };
 
   return (
-    <div>
+    <section className="todoapp">
       <header className="header">
         <h1>todos</h1>
         <form onSubmit={onFormSubmit}>
@@ -163,7 +163,7 @@ const App: React.FC<IAppProps & RouteComponentProps> = (props) => {
           </>
         )}
       </header>
-    </div>
+    </section>
   );
 };
 
